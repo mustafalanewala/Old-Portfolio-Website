@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d3d61f5bb0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Mustafa Lanewala - Contact</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a href="#" class="nav-logo">Mustafa Lanewala</a>
+      <div class="navigation">
+        <ul id="links" class="ul-list">
+          <i class="fa-solid fa-xmark" id="menu-close"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+      </div>
+    </nav>
+
+    <div class="contact-title">
+      <h2>Contact Me</h2>
+      <p>
+        Feel free to reach out for any inquiries, project collaborations, or
+        discussions. I'm open to exploring new opportunities and connecting with
+        like-minded individuals. Looking forward to hearing from you!
+      </p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2>Get In Touch</h2>
+        <form class="contact-form" action="submit_form.php" method="post">
+          <div class="single-row">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              class="form-in mr"
+              required
+            />
+            <input
+              type="text"
+              name="last_name"
+              placeholder="Last Name"
+              class="form-in ml"
+              required
+            />
+          </div>
+          <div class="multiple-row">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="form-in"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              class="form-in"
+              required
+            ></textarea>
+            <input type="submit" id="submit" /><label for="submit"
+              ><i class="fas fa-paper-plane"></i
+            ></label>
+          </div>
+        </form>
+      </div>
+      <div class="contact-right">
+        <h2>Contact Informations</h2>
+        <div class="contact-info">
+          <p><i class="fas fa-phone-alt"></i> +91 9157302004</p>
+          <p><i class="fas fa-envelope"></i> https.mustafalanewala@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Dohad, Gujrat</p>
+        </div>
+
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-list">
+          <p class="footer-head">Mustafa Lanewala</p>
+          <a href="#" class="footer-link">Design-Develop-Inspire</a>
+        </div>
+
+        <div class="footer-list">
+          <p class="footer-head">Get in touch</p>
+          <a href="mailto:https.mustafalanewala@gmail.com" class="footer-link"
+            >https.mustafalanewala@gmail.com</a
+          >
+        </div>
+
+        <div class="social-list">
+          <a
+            href="https://www.instagram.com/mustafa.lanewala"
+            class="social-link"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+
+          <a href="https://github.com/mustafalanewala" class="social-link">
+            <i class="fa fa-github"></i>
+          </a>
+
+          <a
+            href="https://in.linkedin.com/in/mustafa-lanewala-m2004"
+            class="social-link"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
